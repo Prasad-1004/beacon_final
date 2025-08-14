@@ -346,7 +346,7 @@ ul {
 
 
 
-.testimonial-sec {
+.testimonial-section {
   padding: 100px 0;
   position: relative;
 }
@@ -361,7 +361,7 @@ ul {
 .testimonial {
   color: #000;
   padding: 10px 18px;
-  border: 1px solid black;
+  border: 1px solid #efeeed;
   margin: 0 auto;
   max-width: 127px;
   text-align: center;
@@ -449,11 +449,10 @@ ul {
   margin-bottom: 20px;
 }
 
-/* Custom Navigation Buttons */
-/* Replace the existing button styles with this: */
+
 .slick-prev,
 .slick-next {
-  position: absolute; /* Changed from fixed to absolute */
+  position: absolute; 
   width: 60px;
   height: 60px;
   z-index: 100;
@@ -745,7 +744,7 @@ hr {
     font-size: 45px;
   }
 
-  /* potential of the property section */
+  /*  property section */
 
   .potential-property1,
   .potential-property2 {
