@@ -496,7 +496,7 @@ ul {
 
 @media screen and (max-width: 1200px) {
   .slick-prev {
-  left: 306px;
+  left: 255px;
   top: 449px;
 }
 
@@ -568,13 +568,13 @@ ul {
   }
 
   .slick-prev {
-  left: 36px;
-  top: 500px;
+  left: -15px;
+  top: 535px;
 }
 
 .slick-next {
-  right: 110px;
-  top: 500px;
+  right: 65px;
+  top: 539px;
 }
 
 

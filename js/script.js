@@ -33,7 +33,7 @@ $(document).ready(function () {
       {
         breakpoint: 992,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
         },
       },
       {
@@ -48,7 +48,7 @@ $(document).ready(function () {
         settings: {
           slidesToShow: 1,
           arrows: true,
-          centerMode: false,
+          centerMode: true,
         },
       },
     ],
