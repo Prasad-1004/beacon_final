@@ -14,6 +14,7 @@ $(document).ready(function () {
     asNavFor: ".testimonial-img-slick",
   });
 
+
   // Initialize image slider with custom arrow buttons
   $(".testimonial-img-slick").slick({
     dots: false,
@@ -25,9 +26,9 @@ $(document).ready(function () {
     infinite: true,
     arrows: true,
     prevArrow:
-      '<button type="button" class="slick-prev"><img src="/assets/prev.png" alt="Previous"></button>',
+      '<button type="button" class="slick-prev"><img src="./assets/prev.png" alt="Previous"></button>',
     nextArrow:
-      '<button type="button" class="slick-next"><img src="/assets/next.png" alt="Next"></button>',
+      '<button type="button" class="slick-next"><img src="./assets/next.png" alt="Next"></button>',
     responsive: [
       {
         breakpoint: 992,
