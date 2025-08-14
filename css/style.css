@@ -889,6 +889,10 @@ hr {
   .footer-heading {
     margin-top: 50px;
   }
+
+  .footer-icons {
+    flex-direction: row;
+  }
 }
 
 @media screen and (max-width: 430px) {
