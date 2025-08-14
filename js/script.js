@@ -1,60 +1,4 @@
-// $(document).ready(function () {
-//   $(".testimonial-img-slick").slick({
-//     dots: false,
-//     slidesToShow: 5,
-//     slidesToScroll: 1,
-//     centerMode: true,
-//     centerPadding: "0",
-//     asNavFor: ".testimonial-cntn-slider",
-//     infinite: true,
-//     prevArrow: $(".swiper-button-prev"),
-//     nextArrow: $(".swiper-button-next"),
-//     responsive: [
-//       {
-//         breakpoint: 768,
-//         settings: {
-//           arrows: false,
-//           slidesToShow: 3,
-//         },
-//       },
-//       {
-//         breakpoint: 576,
-//         settings: {
-//           slidesToShow: 1,
-//         },
-//       },
-//     ],
-//   });
 
-//   $(".testimonial-cntn-slider").slick({
-//     dots: false,
-//     fade: true,
-//     slidesToShow: 1,
-//     slidesToScroll: 1,
-//     draggable: false,
-//     centerMode: true,
-//     infinite: true,
-//   });
-
-//   $(".testimonial-img-slick .slick-center").next().addClass("sl-next");
-//   $(".testimonial-img-slick .slick-center").prev().addClass("sl-prev");
-
-//   $(".testimonial-img-slick").on(
-//     "beforeChange",
-//     function (event, slick, currentSlide, nextSlide) {
-//       $(this).find(".slick-center").next().removeClass("sl-next");
-//       $(this).find(".slick-center").prev().removeClass("sl-prev");
-//     }
-//   );
-
-//   $(".testimonial-img-slick").on(
-//     "afterChange",
-//     function (event, slick, currentSlide, nextSlide) {
-//       $(this).find(".slick-center").next().addClass("sl-next");
-//       $(this).find(".slick-center").prev().addClass("sl-prev");
-//     }
-//   );
-// });
 
 $(document).ready(function () {
   // Initialize content slider first
@@ -81,9 +25,9 @@ $(document).ready(function () {
     infinite: true,
     arrows: true,
     prevArrow:
-      '<button type="button" class="slick-prev"><img src="../assets/prev.png" alt="Previous"></button>',
+      '<button type="button" class="slick-prev"><img src="./assets/prev.png" alt="Previous"></button>',
     nextArrow:
-      '<button type="button" class="slick-next"><img src="../assets/next.png" alt="Next"></button>',
+      '<button type="button" class="slick-next"><img src="./assets/next.png" alt="Next"></button>',
     responsive: [
       {
         breakpoint: 992,
