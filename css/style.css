@@ -594,8 +594,14 @@ ul {
   max-width: 1446px;
 }
 
-.footer-logo > a {
+.footer-logo  {
   max-width: 240px;
+  
+}
+
+.footer-logo a {
+  width: 100%;
+  object-fit: contain;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -700,6 +706,17 @@ hr {
 .copyright > a:hover {
   color: #bc41bc;
 }
+
+.social {
+  background-color: white;
+  padding: 13px;
+  border-radius: 12px;
+}
+
+.social:hover {
+  transform: scale(1.05);
+}
+
 
 @media screen and (max-width: 992px) {
   /* Header Section */
